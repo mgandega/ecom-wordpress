@@ -1,0 +1,18 @@
+Projet wordpress :
+- partials (header et footer) 
+    - wp_head() et wp_footer()
+
+- add_theme_support
+- add-action
+- add-filter
+- add bootstrap
+- mettre en forme : ctrl + shift + p puis cliquer sur mettre en forme puis intelephense
+- ou alt +shift +f
+- the_post_thumbnail_url() => pour avoir l'url de l'image comme ça tu pourras le customiser
+- <img src="<?phpthe_post_thumbnail_url() ?>" alt="" style="width:100%; height:auto;">
+- get_posttype_archive_link('post') => pour voir la liste des articles
+- get_bloginfo() => permet d'afficher des infos du site
+- <?= get_search_form() ?> =>créer un formulaire de recherche
+- template-banner.php => pour afficher un modèle de page avec une bannière
+- les images ne sont pas rétroactifs, tous les images qui ont été crées ne pouront pas être redimensionnées
+à moin d'utiliser des plugins comme: regenerate thumbnail
